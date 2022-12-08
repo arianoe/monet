@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import MapGL, { Marker, Popup, NavigationControl } from "@urbica/react-map-gl";
 import data from "./data.json";
 import "mapbox-gl/dist/mapbox-gl.css";
-import useSelectedPainting from "./useSelectedPainting";
 
 export const WorldMap = () => {
   const [paintings, setPaintings] = useState([]);
